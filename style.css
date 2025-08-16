@@ -1,0 +1,131 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1596495577886-d920f1fb7238') no-repeat center center/cover;
+      color: white;
+      min-height: 100vh;
+      transition: background 0.3s, color 0.3s;
+    }
+    body.light-mode {
+      background: #f9f9f9;
+      color: #222;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px 20px;
+    }
+    .logo {
+      width: 100px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .toggle-btn {
+      padding: 6px 12px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 0;
+    }
+    nav button {
+      background-color: transparent;
+      border: 2px solid white;
+      color: white;
+      padding: 8px 16px;
+      margin: 0 10px;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    nav button:hover {
+      background-color: white;
+      color: black;
+    }
+    .search-box {
+      display: flex;
+      justify-content: center;
+      margin: 20px auto;
+      gap: 10px;
+    }
+    .search-box input {
+      padding: 8px;
+      width: 250px;
+      border-radius: 5px;
+      border: none;
+    }
+    .search-box button {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      background: gold;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .college-card, #categoryResult {
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 20px auto;
+      border-radius: 10px;
+      width: 80%;
+    }
+    body.light-mode .college-card, body.light-mode #categoryResult {
+      background-color: #fff;
+      color: #000;
+    }
+    .college-logo {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 95%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: white;
+      color: black;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background: #2575fc;
+      color: white;
+    }
+    .best {
+      background-color: #d4edda !important;
+      color: #155724;
+      font-weight: bold;
+    }
+    .delete-btn {
+      cursor: pointer;
+      color: red;
+      font-weight: bold;
+    }
+    .save-btn {
+      cursor: pointer;
+      font-size: 18px;
+      background: none;
+      border: none;
+    }
+    .saved {
+      color: gold;
+    }
+  

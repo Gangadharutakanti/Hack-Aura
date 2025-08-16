@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CampusCheck</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div style="display:flex;align-items:center;">
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="white">
+      <path d="M32 4L2 20l30 16 30-16L32 4zM12 28v16l20 12 20-12V28l-20 10-20-10z"/>
+    </svg>
+    <div class="title">CampusCheck</div>
+  </div>
+  <button class="toggle-btn" onclick="toggleMode()">🌙 Dark/Light</button>
+</header>
+
+<nav>
+  <button onclick="showColleges('mba')">MBA</button>
+  <button onclick="showColleges('engineering')">Engineering</button>
+  <button onclick="showColleges('medical')">Medical</button>
+</nav>
+
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search college...">
+  <button onclick="searchCollege()">Search</button>
+</div>
+
+<div style="text-align:center;">
+  <label for="filter">Filter Colleges by: </label>
+  <select id="filter" onchange="applyFilter()">
+    <option value="">-- Select --</option>
+    <option value="ranking">Best Ranking</option>
+    <option value="fee">Lowest Fee</option>
+    <option value="placement">Highest Placement</option>
+  </select>
+</div>
+
+<div id="categoryResult"></div>
+<div id="searchResult"></div>
+<div id="compareTable"></div>
+<div id="savedColleges"></div>
+
+<script src="script.js">  </script>
+</body>
+</html>
