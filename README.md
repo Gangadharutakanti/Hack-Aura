@@ -1,4 +1,4 @@
-<h1># CampusCheck</h1>
+<img width="1858" height="916" alt="Screenshot 2025-08-16 182502" src="https://github.com/user-attachments/assets/8f238f70-08ba-4b9b-a8cc-cf2d35fb13f8" /><h1># CampusCheck</h1>
 
 <p><b>CampusCheck is a college comparison and exploration web application that allows students to:</b></p>
 
@@ -21,7 +21,9 @@
 ✅ Responsive and mobile-friendly design
 
 ---
-
+<h2>Screen shot</h2>
+    <a src="![Uploading image.png…]()
+">screenshot</a>
 <h2>##  Built With</h2>
 
 -  HTML5  
