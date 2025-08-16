@@ -61,10 +61,10 @@
 
 -Show college locations with Google Maps
 
-<h2>Mobile App Version</h2>
+<h3>Mobile App Version</h3>
 
 
-<h1>Ideas</h1> 
+<h3>Ideas</h3> 
 
   -AI-based college recommendation engine
 
